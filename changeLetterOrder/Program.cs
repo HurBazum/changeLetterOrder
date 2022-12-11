@@ -40,8 +40,8 @@
             Console.WriteLine(result);
             ; break;
         default:
-            Console.WriteLine("Такой порядок ещё не придуман!");
-            ; break;
+            Console.WriteLine("Такой порядок ещё не придуман! Поэтому будем считать, что Вы выбрали первый вариант перестановки))");
+            goto case 1;
     }
     Console.Beep();
     Console.WriteLine("Если хотите переставить буквы ещё в каком-нибудь слове - нажмите Enter; хотите закончить - Escape!");
